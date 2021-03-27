@@ -33,7 +33,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setTitle("SIMULACION - EQUIPO 2");
+        stage.setTitle("JUEGO DE DARDOS");
         VBox layout = new VBox(2); // contenedor
         unitCircle(); // generar circulo unitario
         dartGenerator(numDarts); // generar dardos
